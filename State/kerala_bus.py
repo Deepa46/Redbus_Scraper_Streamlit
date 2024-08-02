@@ -28,7 +28,7 @@ def route_info():
 driver.get('https://www.redbus.in/online-booking/ksrtc-kerala/?utm_source=rtchometile')
 time.sleep(5)
 
-# Get route name,link from the first page
+# Get all route name,link 
 r_name, r_link = route_info()
 
 # pagination buttons
